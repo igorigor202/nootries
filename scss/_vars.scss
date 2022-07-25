@@ -1,0 +1,29 @@
+/* COLOR */
+$bg: #FCDA28;
+$orange: #FCB500;
+$yellow: #FFEE00;
+$black: #111111;
+$white: #FFFFFF;
+$grey: #ADADAD;
+
+/* FONTS */
+%rubikregular-400 {
+    font-family: 'Rubik-Regular';
+    font-weight: 400;
+}
+
+%rubikbold-700 {
+    font-family: 'Rubik-Bold';
+    font-weight: 700;
+}
+
+/* BUTTON */
+%btn {
+    width: 257px;
+    height: 57px;
+    border-radius: 7px;
+    background-color: $orange;
+    color: $black;
+    border: none;
+    cursor: pointer;
+}
